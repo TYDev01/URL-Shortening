@@ -394,4 +394,72 @@ nav{
 
 .cta-7{
     background: url("../images/bg.jpeg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.cta-7-box{
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 1rem;
+    width: 35%;
+}
+
+.first-input input{
+    padding: 0.7rem;
+    width: 100%;
+    /* margin: 1%; */
+    border-radius: 0.5rem;
+    border: 1px solid #4a93ff;
+    font-size: 14px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.opt{
+    width: 49.7%;
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+    border: 1px solid #4a93ff;
+    font-size: 14px;
+    font-family: 'Nunito', sans-serif;
+    margin: 2% 0;
+    background: none;
+}
+
+.two-inputs input{
+    width: 49%;
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+    border: 1px solid #4a93ff;
+    font-size: 14px;
+    font-family: 'Nunito', sans-serif;
+    margin: 5% 0;
+    /* display: flex; */
+}
+
+.cta-7-box button{
+    width: 100%;
+    background: #0065fe;
+    border: none;
+    border-radius: 2rem;
+    padding: 0.5rem;
+    color: #ffffff;
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.cta-7-box p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    color: #4a93ff;
+    margin-top: 1.5rem;
+}
+
+.terms{
+    font-family: 'Work Sans', sans-serif;
 }
