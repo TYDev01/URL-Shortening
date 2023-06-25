@@ -381,6 +381,7 @@ nav{
     background: none;
     padding: 0.7rem;
     border-radius: 1.5rem;
+    cursor: pointer;
 }
 
 .btn-2 {
@@ -389,6 +390,7 @@ nav{
     background: #0065fe;
     padding: 0.7rem 2rem;
     border-radius: 1.5rem;
+    cursor: pointer;
 }
 
 
@@ -527,3 +529,95 @@ nav{
        margin-left: 0;
        border: 0.5px solid #e5e6e8;
    }
+
+
+   .section8{
+    background-image: url("../images/bg.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 48vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+   }
+
+.section8 h2 {
+   font-family: 'Work Sans', sans-serif;
+   color: #fff;
+   font-size: 2rem;
+   margin-top: 50px;
+ }
+
+  .section8 button {
+   border-radius: 50px;
+   border: 1px solid #0065FE ;
+   margin-top: -20px;
+   background-color: #0065FE;
+   color: #fff;
+   padding: 0.8rem 1.5rem;
+   cursor: pointer;
+   font-family: 'Rubik', sans-serif;
+ }
+
+
+ footer{
+     background: url("../images/footer.png");
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+
+ .footer-flex {
+     display: flex;
+     justify-content: space-around;
+     margin: 5rem 0 3rem;
+
+     /* finance cannot give you peace but it can enhance the things needed to give you peace */
+ }
+
+ .scissorslogo img{
+    margin: 0.5rem;
+ }
+
+ .wrapper {
+    margin-left: -30rem;
+ }
+
+ .wrapper h2{
+   font-family: 'Work Sans', sans-serif;
+ }
+
+ .wrapper p{
+    font-family: 'Nunito', sans-serif;
+    line-height: 2rem;
+    cursor: pointer;
+ }
+
+.wrap1 {
+    margin-right: 2rem;
+ }
+
+.footer-inner{
+    margin-bottom: 2rem;
+}
+
+.footer-top{
+    display: flex;
+    gap: 4rem;
+}
+
+
+.footer-bottom{
+    display: flex;
+    gap: 6rem;
+}
+
+.last-p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    text-align: right;
+    position: relative;
+    right: 8rem;
+    bottom: 1.5rem;
+}
