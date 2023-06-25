@@ -463,3 +463,67 @@ nav{
 .terms{
     font-family: 'Work Sans', sans-serif;
 }
+
+
+/* CTA-8 */
+.cta-8{
+    margin-top: 3rem;
+}
+.cta-8 h2 {
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+}
+
+.cta-8 img {
+    width: 0.3rem;
+    height: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+.accordion {
+    width: 1000px;
+    margin: 10px auto;
+    color: black;
+    background-color: white;
+    padding: 45px 45px;
+}
+
+ .url1 {
+     padding: 15px 0;
+     font-size: 20px;
+     color: #373737;
+     cursor: pointer;
+     font-family: 'Rubik', sans-serif;
+ }
+
+  .accordion  p{
+      padding: 15px 0;
+      font-size: 16px;
+      color: black;
+      cursor: pointer;
+      font-family: 'Nunito', sans-serif;
+  }
+
+  .accordion .label {
+      padding: 1.5rem 0;
+      font-size: 16px;
+      cursor: pointer;
+      font-family: 'Rubik', sans-serif;
+      position: relative;
+  }
+
+  .accordion .label::before {
+      content: '+';
+      color: black;
+      position: absolute;
+      top: 45%;
+      left: 900px;
+      font-size: 16px;
+      transform: translateY(-50%);
+  }
+
+   .accordion hr {
+       width: 100;
+       margin-left: 0;
+       border: 0.5px solid #e5e6e8;
+   }
